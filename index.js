@@ -13,7 +13,7 @@ app.all('*', (req, res, next) => {
   next()
 })
 
-const remotePath = '/Users/courthasl/Documents/test/'
+const remotePath = '/home/courthasl/jd/log/'
 const fileArr = []
 
 const getDirectories = function (src, callback) {
